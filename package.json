@@ -1,0 +1,25 @@
+{
+  "name": "modernjs",
+  "version": "1.0.0",
+  "description": "Nerdschool meetup",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fborlaug/modernjs.git"
+  },
+  "keywords": [
+    "rest",
+    "http",
+    "web",
+    "fun"
+  ],
+  "author": "Frode Borlaug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fborlaug/modernjs/issues"
+  },
+  "homepage": "https://github.com/fborlaug/modernjs#readme"
+}
