@@ -19,6 +19,10 @@ class TvShowService {
       this.tvShows.push(newTvShow);
       return newTvShow;
    }
+
+   delete(tvShowId) {
+      this.tvShows = this.tvShows.filter(tvShow => tvShow.id !== tvShowId);
+   }
 }
 
 module.exports = new TvShowService();

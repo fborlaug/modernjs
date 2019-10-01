@@ -20,5 +20,12 @@ tvShowRouter.get('/', (req, res) => {
    const newTvShow = tvShowService.createTvShow(req.body.name, req.body.genre);
    res.json(newTvShow)
  });
+
+ tvShowRouter.delete('/:tvShowId', (req,res) => {
+   const tvShowId = req.params.tvShowId;
+   console.log(`Deleting TV Show with id: ${tvShowId}`);
+   tvShowService.delete(tvShowId);
+   res.status(200).end();
+ });
  
  module.exports = tvShowRouter
